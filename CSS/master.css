@@ -1,0 +1,125 @@
+body
+{
+    height: 100vh;
+    background-color: #1e202b ;
+    
+    
+}
+.back-image
+{
+    height: 400px;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0), rgba(0,0,0,0.9)), url(../images/cc.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+header
+{
+    background-color: #1e202b ;
+}
+.navbar-nav
+{
+   margin: auto;  
+}
+.navbar-brand
+{
+    cursor: text;
+}
+
+.logo-p
+{
+    margin-left: 30px;
+}
+.logo
+{
+    width: 100px;
+    padding: 10px;
+}
+.nav-link:hover
+{
+    border: 2px solid #009ad8;
+    border-radius: 100px;
+    color: #009ad8 !important;
+   
+}
+.nav-link.active
+{
+    border: 2px solid #009ad8;
+    border-radius: 100px;
+    color: #009ad8 !important;
+}
+.first-sec
+{
+    margin-top: 300px !important;
+    
+}
+.degree
+{
+    font-size: 70px;
+    padding-left: 20px;
+    padding-block: 20px;
+}
+.tagline
+{
+    font-size: 12px;
+}
+.images img
+{
+    padding-inline: 17px;
+}
+.sunny
+{
+    color: #009ad8 ;
+}
+h4
+{
+    padding-left: 20px;
+    
+}
+.findInput {
+    position: relative;
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.findInput .searchInput {
+    flex: 1;
+    font-weight: 700;
+}
+
+.findInput .findbtn {
+    margin-left: -75px; 
+}
+section
+{
+    position: relative;
+    bottom:300px;
+}
+footer
+{
+    background-color: #272b42;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dd
+{
+    background-color: #1e202b ;
+    border-color: #009ad8 !important;
+    border-radius: 20px;
+}
+.navbar-toggler
+{
+    
+    background-color: #009ad8;
+}
+.address
+{
+    vertical-align: middle;
+}
